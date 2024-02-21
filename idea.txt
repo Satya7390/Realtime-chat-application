@@ -1,0 +1,26 @@
+Scaler NodeJS-Project-Building-Challenge (21/FEBRUARY/2024)
+
+Satya_lead24-satyagupta.
+
+Today I will starting  Project on Realtime chat application.
+
+TODO: 
+
+    [+] Create NPM project 
+
+    [+] Create Index, Css, Js files
+
+    [+] Install dependancies. express, nodemon(dev dep.)
+
+    [+] Create a express server (server.js)
+
+    [+] do frontend part
+
+    [+] Install socket.io, Setup socket.io in server.js and client client.js
+
+    [+] Client send message logic in client.js
+
+    [+] Recieve message on server and broadcast to all clients
+
+    [+] Recieve message on client and display it. scrollToBottom etc...
+    
