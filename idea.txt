@@ -6,13 +6,13 @@ Today I will starting  Project on Realtime chat application.
 
 TODO: 
 
-    [+] Create NPM project 
+   1. Create NPM project 
 
-    [+] Create Index, Css, Js files
+   2. Create Index, Css, Js files
 
-    [+] Install dependancies. express, nodemon(dev dep.)
+   3. Install dependancies. express, nodemon(dev dep.)
 
-    [+] Create a express server (server.js)
+   4. Create a express server (server.js)
 
     [+] do frontend part
 
