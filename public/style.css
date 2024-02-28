@@ -21,16 +21,29 @@ section.chat__section {
 }
 .brand {
     padding: 20px;
-    background: #f1f1f1;
+    background: linear-gradient(90deg, #4e54c8, #8f94fb); /* Gradient background */
     display: flex;
     align-items: center;
+    border-top-left-radius: 10px; /* Rounded corners */
+    border-top-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;;
 }
+
+.brand img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%; /* Apply circular border-radius */
+    overflow: hidden; /* Ensure image is fully contained within the circle */
+}
+
 .brand h1 {
     text-transform: uppercase;
     font-size: 20px;
-    color: #444;
-    margin-left: 10px;
+    color: #fff; /* White text color */
+    font-weight: bold; /* Bold font */
 }
+
+
 .message__area{
     height: 500px;
     padding: 16px;
@@ -45,7 +58,13 @@ textarea {
     padding: 20px;
     font-size: 16px;
     outline: none;
-    background: #FBFBFB;
+    border-top: 1px solid rgba(60,51,176,0.1);
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+   
+}
+::placeholder{
+    color: black;
+    
 }
 
 .message {
@@ -56,13 +75,19 @@ textarea {
     position: relative; 
 }
 .incoming {
-    background: #8F8BE8;
-    color: #fff;  
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    background-color:black;
+    color: white;
 }
 .outgoing {
-    background: #e9eafd;
-    color: #787986;
+    color: white;
     margin-left: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    background-color:cornflowerblue;
 }
 .message h4 {
     position: absolute;
@@ -70,4 +95,18 @@ textarea {
     left: 0;
     color: #333;
     font-size: 14px;
+}
+
+footer {
+    background: #2c3e50; /* Dark blue background */
+    padding: 15px 23px;
+    color: #fff; /* White text color */
+    text-align: center;
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
 }

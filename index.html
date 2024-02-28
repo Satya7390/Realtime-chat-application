@@ -11,16 +11,25 @@
 <body>
     <section class="chat__section">
         <div class="brand">
-            <img height="40" src="/chat.png" alt="">
+            <img height="40" src="/satya.jpg" alt="">
             <h1>Chat App</h1>
         </div>
         <div class="message__area"></div>
         <div>
-            <textarea id="textarea" cols="30" rows="1" placeholder="Write a message..."></textarea>
+            <textarea style="resize: none;" id="textarea" cols="30" rows="1" placeholder="Write a message..."></textarea>
         </div>
+        <footer>
+            <span>Created By <a target="_blank" href="https://www.linkedin.com/in/satyanand-gupta-836106282/">#@Satya Gupta</a>| <span class="far fa-copyright"></span> February 2024 All Rights Reserved.</span>
+    </footer>
     </section>
     <script src="/socket.io/socket.io.js"></script>
     <script src="/client.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('textarea').focus();
+        });
+    </script>
+   
 </body>
 
 </html>
